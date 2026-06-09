@@ -186,20 +186,6 @@ classDiagram
     Main ..> InvalidInputException : catches
 ```
 
-## Prerequisites
-
-- JDK 17 or higher ([setup guide](docs/Setup_Instructions.md))
-
-## How to Compile and Run
-
-**IntelliJ IDEA:** Open the project, set JDK 17+, and run `com.airtribe.learntrack.Main`.
-
-**Terminal** (from project root):
-
-```bash
-javac -d out -sourcepath src src/com/airtribe/learntrack/Main.java
-java -cp out com.airtribe.learntrack.Main
-```
 
 ## Documentation
 
@@ -209,14 +195,7 @@ java -cp out com.airtribe.learntrack.Main
 | [docs/JVM_Basics.md](docs/JVM_Basics.md) | JDK, JRE, JVM, and bytecode |
 | [docs/Design_Notes.md](docs/Design_Notes.md) | Design decisions and architecture |
 
-## Submission
-
-| Item | Details |
-|------|---------|
-| **GitHub repository** | [https://github.com/anjali-venugopal/Java](https://github.com/anjali-venugopal/Java) |
-| **Visibility** | Repository must be **public** |
-| **Pull request** | Submit a PR from this repository to the cohort template repository as instructed by your mentor |
 
 ## Author
 
-**Anjali Venugopal** — Airtribe Java Fundamentals
+**Anjali Venugopal** 
